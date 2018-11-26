@@ -1,0 +1,36 @@
+@font-face {
+            font-family: sansation;
+            src: url(profonts/SansationLight.woff);
+         }
+
+body{margin:0;padding:0;overflow-x: hidden;background-image: url(Blog-3.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;height: 100%;width: 100%;background-attachment: fixed;padding: 5% 9% 10% 2%;}
+div#log{height: 920px;width: 700px;background-color: snow;opacity: 0.7;margin: 100px;position: relative;top: 0px;left: 180px;box-shadow: 10px 10px 10px;}
+div#log h1{color : teal;position :relative ; top :50px;left: 220px ;font-family : sansation;}
+form{position: relative;top: 100px;left: 100px;font-family: sansation;font-size: 20px;}
+input[type=text], input[type=password],select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-shadow: 10px 10px 10px;
+}
+button{background-color: #4CAF50;color: white;padding: 14px 20px;margin: 8px 0;border: none;cursor: pointer;width: 70%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+span.psw {
+    position: relative;
+    left: 250px;
+    padding-top: 16px;
+}
+span{color: red;font-size: 15px;}

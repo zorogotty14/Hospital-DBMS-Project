@@ -1,0 +1,36 @@
+
+@font-face {
+            font-family: sansation;
+            src: url(profonts/SansationLight.woff);
+         }
+body{margin:0;background-color: snow;padding: 0;}
+nav{background-color: #333;position: fixed;top: 0;left:0;width: 100%;z-index: 1;margin: 0 auto;padding: 0;}
+nav ul {list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;}
+nav ul li{float: left;}
+nav ul li a {display: inline-block; color: snow;text-align: center;text-decoration: none;padding: 14px 17px;height: 23px;font-size: 17px;font-family: sansation;}
+nav ul li a:hover {background-color: silver;color:black;}
+nav li a.active { background-color: lightseagreen;color:black;}
+nav a.logo{background-color: yellowgreen;color:black;}
+#first{background-image: url(1.jpg);
+  margin-top: 48px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height:500px;
+  background-attachment: fixed;
+  padding: 5% 9% 10% 2%;}
+#first div#box{position: relative;left:80px;width: 1240px;height: 700px; background-color: snow;border-radius: 8px;opacity: 0.7}
+.container-1 {position: absolute;left: 50px;top: 50px;display: inline-block;}
+.container-2 {position: absolute;left: 50px;top: 260px;display: inline-block;}
+.container-3 {position: absolute;left: 50px;top: 470px;display: inline-block;}
+.container-4 {position: absolute;left: 1000px;top: 50px;display: inline-block;}
+.container-5 {position: absolute;left: 1000px;top: 260px;display: inline-block;}
+.container-mid1 {position: absolute;left: 350px;top: 50px;display: inline-block;background-color:pink;padding:12px 16px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;text-decoration: none;display: block;}
+.container-mid2 {position: absolute;left: 350px;top: 260px;display: inline-block;background-color:pink;padding:12px 16px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;text-decoration: none;display: block;}
+.container-mid1 a{text-decoration: none;display: block;color:maroon;}
+.container-mid2 a{text-decoration: none;display: block;color:maroon;}
+.col {position: absolute;background-color: #f9f9f9;min-width: 200px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.col a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.col a:hover {background-color: #f1f1f1}
+.col a.head{background-color: teal;}
+#last{background-color: black;color:white;padding:5%;font-family: belda;text-align: center;}
